@@ -1,0 +1,36 @@
+body{
+  background: #fafafa;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.loader-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0;
+  z-index: 99999;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.loader-screen>* {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-head{
+  padding-top: 20px;
+}
+.login-form{
+  margin-top: 3em;
+  border: 2px solid #ccc;
+  padding: 40px 20px;
+  background: #f7f7f7;
+}
+.user-profile{
+  height: 100px;
+}
